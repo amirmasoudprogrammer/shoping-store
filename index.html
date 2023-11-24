@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Botostart Store</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <h3>shoping store</h3>
+    <div>
+        <a href="auth.html" id="login">
+            Login
+            <i class="fa-solid fa-right-to-bracket"></i>
+        </a>
+        <a href="dashboard.html" id="dashboard">
+            Dashboard
+            <i class="fa-solid fa-house"></i>
+        </a>
+    </div>
+</header>
+<div id="search">
+    <h1>shop</h1>
+    <input type="text" placeholder="search product...">
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+<div id="container">
+    <div id="products"><span id="loader"></span></div>
+    <div id="filter">
+        <div>
+            <i class="fa-solid fa-sliders"></i>
+            <p>Categories</p>
+        </div>
+           <ul>
+               <li class="selected">ALL</li>
+               <li>Electronics</li>
+               <li>jewelery</li>
+               <li>men`s Clothing</li>
+               <li>women `s clothing</li>
+           </ul>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="module" src="./index.js"></script>
